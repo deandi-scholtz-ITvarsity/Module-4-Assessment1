@@ -20,7 +20,7 @@ h1{
     width: 160px;
     bottom: 10px;
     left: 50%;
-    margin-left: -80px ;
+    margin-left: -80px;
 }
 
 /*=============== NEPTUNE ===============*/
@@ -35,9 +35,35 @@ h1{
     position: absolute;
     width: 1204px;
     height: 1204px;
-    bottom: -512px;
+    bottom: -650px;
     left: 50%;
     margin-left: -602px;
     border: 1px dotted white;
-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#neptune-label{
+    bottom: 692px;
+}
+
+/*=============== LABEL BOX ===============*/
+.label-box{
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.label-box a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.label-box a:visited{
+color: white;
 }
